@@ -1,0 +1,6 @@
+framework module Pods_NumericCodeVerifier {
+  umbrella header "Pods-NumericCodeVerifier-umbrella.h"
+
+  export *
+  module * { export * }
+}

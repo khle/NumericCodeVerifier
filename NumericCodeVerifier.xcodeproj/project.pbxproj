@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71BCFA43B11BDAE2D3DA6D49 /* Pods_NumericCodeVerifier.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D49E0B05897F818A07ACCA26 /* Pods_NumericCodeVerifier.framework */; };
+		B5EFD4E62199D879002DE52C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EFD4E52199D879002DE52C /* AppDelegate.swift */; };
+		B5EFD4E82199D879002DE52C /* VerifyLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EFD4E72199D879002DE52C /* VerifyLoginViewController.swift */; };
+		B5EFD4EB2199D879002DE52C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5EFD4E92199D879002DE52C /* Main.storyboard */; };
+		B5EFD4ED2199D879002DE52C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5EFD4EC2199D879002DE52C /* Assets.xcassets */; };
+		B5EFD4F02199D879002DE52C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5EFD4EE2199D879002DE52C /* LaunchScreen.storyboard */; };
+		B5EFD4F82199DF77002DE52C /* LimitLengthTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EFD4F72199DF77002DE52C /* LimitLengthTextField.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		58E71D763AD0F46D44014B4D /* Pods-NumericCodeVerifier.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NumericCodeVerifier.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NumericCodeVerifier/Pods-NumericCodeVerifier.debug.xcconfig"; sourceTree = "<group>"; };
+		A01B66EE43C0BB4AA516B709 /* Pods-NumericCodeVerifier.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NumericCodeVerifier.release.xcconfig"; path = "Pods/Target Support Files/Pods-NumericCodeVerifier/Pods-NumericCodeVerifier.release.xcconfig"; sourceTree = "<group>"; };
+		B5EFD4E22199D879002DE52C /* NumericCodeVerifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NumericCodeVerifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5EFD4E52199D879002DE52C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B5EFD4E72199D879002DE52C /* VerifyLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyLoginViewController.swift; sourceTree = "<group>"; };
+		B5EFD4EA2199D879002DE52C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5EFD4EC2199D879002DE52C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5EFD4EF2199D879002DE52C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B5EFD4F12199D879002DE52C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5EFD4F72199DF77002DE52C /* LimitLengthTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LimitLengthTextField.swift; sourceTree = "<group>"; };
+		D49E0B05897F818A07ACCA26 /* Pods_NumericCodeVerifier.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NumericCodeVerifier.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5EFD4DF2199D879002DE52C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71BCFA43B11BDAE2D3DA6D49 /* Pods_NumericCodeVerifier.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7589281CD3D3334811A37781 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				58E71D763AD0F46D44014B4D /* Pods-NumericCodeVerifier.debug.xcconfig */,
+				A01B66EE43C0BB4AA516B709 /* Pods-NumericCodeVerifier.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B5EFD4D92199D879002DE52C = {
+			isa = PBXGroup;
+			children = (
+				B5EFD4E42199D879002DE52C /* NumericCodeVerifier */,
+				B5EFD4E32199D879002DE52C /* Products */,
+				7589281CD3D3334811A37781 /* Pods */,
+				D8A191ACE870059C75483527 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B5EFD4E32199D879002DE52C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5EFD4E22199D879002DE52C /* NumericCodeVerifier.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5EFD4E42199D879002DE52C /* NumericCodeVerifier */ = {
+			isa = PBXGroup;
+			children = (
+				B5EFD4E52199D879002DE52C /* AppDelegate.swift */,
+				B5EFD4E72199D879002DE52C /* VerifyLoginViewController.swift */,
+				B5EFD4E92199D879002DE52C /* Main.storyboard */,
+				B5EFD4EC2199D879002DE52C /* Assets.xcassets */,
+				B5EFD4EE2199D879002DE52C /* LaunchScreen.storyboard */,
+				B5EFD4F12199D879002DE52C /* Info.plist */,
+				B5EFD4F72199DF77002DE52C /* LimitLengthTextField.swift */,
+			);
+			path = NumericCodeVerifier;
+			sourceTree = "<group>";
+		};
+		D8A191ACE870059C75483527 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D49E0B05897F818A07ACCA26 /* Pods_NumericCodeVerifier.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5EFD4E12199D879002DE52C /* NumericCodeVerifier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5EFD4F42199D879002DE52C /* Build configuration list for PBXNativeTarget "NumericCodeVerifier" */;
+			buildPhases = (
+				2A5B568F0AD3B35CA077370E /* [CP] Check Pods Manifest.lock */,
+				B5EFD4DE2199D879002DE52C /* Sources */,
+				B5EFD4DF2199D879002DE52C /* Frameworks */,
+				B5EFD4E02199D879002DE52C /* Resources */,
+				AD0AAEE024A5890669775F1D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NumericCodeVerifier;
+			productName = NumericCodeVerifier;
+			productReference = B5EFD4E22199D879002DE52C /* NumericCodeVerifier.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5EFD4DA2199D879002DE52C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = kevin.le;
+				TargetAttributes = {
+					B5EFD4E12199D879002DE52C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B5EFD4DD2199D879002DE52C /* Build configuration list for PBXProject "NumericCodeVerifier" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5EFD4D92199D879002DE52C;
+			productRefGroup = B5EFD4E32199D879002DE52C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5EFD4E12199D879002DE52C /* NumericCodeVerifier */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5EFD4E02199D879002DE52C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5EFD4F02199D879002DE52C /* LaunchScreen.storyboard in Resources */,
+				B5EFD4ED2199D879002DE52C /* Assets.xcassets in Resources */,
+				B5EFD4EB2199D879002DE52C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A5B568F0AD3B35CA077370E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NumericCodeVerifier-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD0AAEE024A5890669775F1D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NumericCodeVerifier/Pods-NumericCodeVerifier-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NumericCodeVerifier/Pods-NumericCodeVerifier-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5EFD4DE2199D879002DE52C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5EFD4F82199DF77002DE52C /* LimitLengthTextField.swift in Sources */,
+				B5EFD4E82199D879002DE52C /* VerifyLoginViewController.swift in Sources */,
+				B5EFD4E62199D879002DE52C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B5EFD4E92199D879002DE52C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5EFD4EA2199D879002DE52C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B5EFD4EE2199D879002DE52C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5EFD4EF2199D879002DE52C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5EFD4F22199D879002DE52C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B5EFD4F32199D879002DE52C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5EFD4F52199D879002DE52C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58E71D763AD0F46D44014B4D /* Pods-NumericCodeVerifier.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XF6KW2ET98;
+				INFOPLIST_FILE = NumericCodeVerifier/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kevin.le.NumericCodeVerifier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5EFD4F62199D879002DE52C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A01B66EE43C0BB4AA516B709 /* Pods-NumericCodeVerifier.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XF6KW2ET98;
+				INFOPLIST_FILE = NumericCodeVerifier/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kevin.le.NumericCodeVerifier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5EFD4DD2199D879002DE52C /* Build configuration list for PBXProject "NumericCodeVerifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5EFD4F22199D879002DE52C /* Debug */,
+				B5EFD4F32199D879002DE52C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5EFD4F42199D879002DE52C /* Build configuration list for PBXNativeTarget "NumericCodeVerifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5EFD4F52199D879002DE52C /* Debug */,
+				B5EFD4F62199D879002DE52C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5EFD4DA2199D879002DE52C /* Project object */;
+}
